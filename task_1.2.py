@@ -1,29 +1,33 @@
-#task_1
+# task_1
 f_temperature = int(input("Введите темературу по фаренгейту: "))
 
-c_temperature = (f_temperature - 32) * 5/9
+c_temperature = (f_temperature - 32) * 5 / 9
 
 print(c_temperature)
 
-
 # #task_2
-one_dollar = 70.38 #rub
-one_hundred_rub = 1.22 #eur
+one_dollar = 70.38  # rub
+one_hundred_rub = 1.22  # eur
 
 dollars = int(input("Введите сумму долларов: "))
 
 rub = dollars * one_dollar
-eur = rub/100 * one_hundred_rub
+eur = rub / 100 * one_hundred_rub
 
 print(eur)
 
 
-#task_3
+# task_3
 answer = str(input("Какая сегодня погода? "))
 
+if answer == "Cлонечная" or "солнечная":
+    print("Возьми с собой очки")
+else:
+    print("Возьми с собой зонт")
 
+print("Хорошего дня")
 
-#task_4
+# task_4
 total_amount = 0
 index = 0
 
@@ -34,8 +38,7 @@ while index < 12:
 
 print(total_amount)
 
-
-#task_5
+# task_5
 correct_answers = 0
 
 while correct_answers == 0:
@@ -68,5 +71,5 @@ while correct_answers == 0:
         else:
             print("Неправильно. Правильный ответ: in")
 
-        print(f"Вот и всё! Вы ответили на {correct_answers} вопросов из 3 верно, это {correct_answers/0.03} процентов")
-
+        print(
+            f"Вот и всё! Вы ответили на {correct_answers} вопросов из 3 верно, это {correct_answers / 0.03} процентов")
