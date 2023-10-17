@@ -16,7 +16,6 @@ eur = rub / 100 * one_hundred_rub
 
 print(eur)
 
-
 # task_3
 answer = str(input("Какая сегодня погода? "))
 
